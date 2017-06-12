@@ -1,0 +1,67 @@
+<style type="text/css" media="all">
+.padLeft
+{
+	padding-left:20px !important;
+}
+</style>
+<div id="mysites_all" class="e3_offstage">
+	<div id="allsites_selection" style="width:100%; font-size:13px; margin-top:10px;" class="e3_offstage">
+		<span style="margin-left:20px">Sort By:</span> 
+		<input type="radio" name="allsites_sort" id="allsites_sort_date" value="date" />
+		<label for="allsites_sort_date">Creation Date</label>
+		<input type="radio" name="allsites_sort" id="allsites_sort_term" value="term" />
+		<label for="allsites_sort_term">Term</label>
+		<div style="float:right; margin-right:20px;">
+			<div style="display:inline; margin-right:100px;">
+				<a title="First Page" class="e3_toolUiLink" href="" id="allsites_firstPage"><img alt="First Page" src="/e3/support/icons/pager_first.png" style="vertical-align:text-bottom; border-style:none;" /></a>
+				<a title="Prev Page" class="e3_toolUiLink" href="" id="allsites_prevPage"><img alt="Prev Page" src="/e3/support/icons/pager_prev.png" style="vertical-align:text-bottom; border-style:none;" /></a>
+				Page <span id="allsites_page"></span>  (Sites <span id="allsites_first"></span> - <span id="allsites_last"></span> of <span id="allsites_count"></span>)
+				<a title="Next Page" class="e3_toolUiLink" href="" id="allsites_nextPage"><img alt="Next Page" src="/e3/support/icons/pager_next.png" style="vertical-align:text-bottom; border-style:none;" /></a>
+				<a title="Last Page" class="e3_toolUiLink" href="" id="allsites_lastPage"><img alt="Last Page" src="/e3/support/icons/pager_last.png" style="vertical-align:text-bottom; border-style:none;" /></a>
+			</div>
+			<input id="allsites_search" type="text"></input> <a id="allsites_go" href="" class="e3_toolUiLinkU">Search</a>
+		</div>
+	</div>
+	<div id="mysites_actions" class="e3_tool_actions" style="margin-top:10px;">
+	</div>
+	<div class="e3_tool_items">
+		<table id="mysites_item_table" class="e3_tool_item_table">
+			<thead />
+			<tbody />
+		</table>
+		<div id="mysites_noSites" class="e3_offstage e3_emptyWarning">
+			You have no Sites
+		</div>
+		<div id="mysites_noSitesAll" class="e3_offstage e3_emptyWarning">
+			No Sites meet your criteria
+		</div>
+		<table id="mysites_archives_table" class="e3_tool_item_table">
+			<thead />
+			<tbody />
+		</table>
+		<div id="mysites_noArchives" class="e3_offstage e3_emptyWarning">
+			You have no Archived Sites
+		</div>
+	</div>
+</div>
+<div id="mysites_alertSelect" title="First Select Sites">
+	You must first select some sites, using the checkboxes.
+</div>
+<div id="mysites_alertSelect1" title="First Select A Site">
+	You must first select one site, using the checkboxes.
+</div>
+<div id="mysites_confirmPublish" title="Confirm Publish">
+	Publishing these sites will open them to student access.  Are you sure you want to publish the selected sites?
+</div>
+<div id="mysites_confirmUnpublish" title="Confirm Unpublish">
+	Unpublishing these sites will close them to student access.  Are you sure you want to unpublish the selected sites?
+</div>
+<div id="mysites_confirmFavorite" title="Confirm Add To Tabs">
+	These sites are displayed on the dashboard, and as tabs across the top of myEtudes for easy access.<br />Are you sure you want to add this site to your tabs?
+</div>
+<div id="mysites_confirmUnfavorite" title="Confirm Remove From Tabs">
+	Are you sure you want to remove this site from your tabs?<br />You will still have access to the site from <i>My Sites</i>.
+</div>
+<div id="mysites_confirmPurge" title="Confirm Purge">
+	Purging a site removes it completely from Etudes, including all related authored and student data.  Are you sure you want to purge the selected sites?</i>.
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<registration>
+
+	<tool
+			id="e3.mysites"
+			title="mysites"
+			description="mysites"
+			dispatcher="E3"
+			e3Code="mysites">
+
+	</tool>
+
+</registration>
